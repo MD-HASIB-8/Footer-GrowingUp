@@ -13,19 +13,19 @@ footer{
     margin-top: 100px;
 }
 p{
-    line-height: 30px;
+    line-height: 40px;
     font-size: 20px;
     opacity: 50%;
 }
 p img{
     filter: brightness(.8) contrast(1.5);
-    height:  30px;
+    height:  25px;
     padding: 2px;
-    top: 10px;
+    top: 8px;
 }
 .window,.apple{
     border: 1.1px solid black;
-    padding: 1px 6px 7px 6px;
+    padding: 0px 6px 1px 6px;
     border-radius: 20px;
     margin: 10px 0px;
 }
@@ -40,15 +40,26 @@ h1{
 }
 .foot1{
     margin-bottom: 50px;
-    gap: 2%;
+    gap: 4%;
+}
+.foot1 p{
+    font-size: 15px;
 }
 .foot2{
     background-color: #72c139f2;
     padding: 18px 20px;
-    gap: 40%;
+    gap: 33%;
 }
 .fin-1{
-    padding-right:  140px;
+    padding-right:  100px;
     padding-bottom: 20px;
 }
-.fin-1 img{}
+.fin-1 img{
+    bottom: 25px;
+}
+.fin-6{
+    right: 30px;
+}
+.fin-7{
+    gap: 10%;
+}
