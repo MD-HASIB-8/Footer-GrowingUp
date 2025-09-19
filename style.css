@@ -12,13 +12,40 @@ footer{
     align-items: center;
 }
 p{
+    line-height: 30px;
+    font-size: 20px;
     opacity: 50%;
 }
-h1{
-    
+p img{
+    height:  30px;
+    padding: 2px;
+    top: 10px;
 }
-.foot1,.foot2{
+.window,.apple{
+    border: 1.1px solid black;
+    border-radius: 20px;
+    padding: 1px 6px 7px 6px;
+    margin: 10px 0px;
+}
+h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+.foot1,.foot2,.fin-7{
     justify-content: center;
     align-items: center;
     display: flex;
+}
+.foot1{
+    gap: 2%;
+    margin-bottom: 50px;
+}
+.foot2{
+    background-color: #72c139f2;
+    padding: 10px 20px;
+    gap: 40%;
+}
+.fin-1{
+    padding-right: 140px;
+    padding-bottom: 20px;
 }
