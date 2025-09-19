@@ -10,6 +10,7 @@ body{
 footer{
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 p{
     line-height: 30px;
@@ -17,14 +18,15 @@ p{
     opacity: 50%;
 }
 p img{
+    filter: brightness(.8) contrast(1.5);
     height:  30px;
     padding: 2px;
     top: 10px;
 }
 .window,.apple{
     border: 1.1px solid black;
-    border-radius: 20px;
     padding: 1px 6px 7px 6px;
+    border-radius: 20px;
     margin: 10px 0px;
 }
 h1{
@@ -37,8 +39,8 @@ h1{
     display: flex;
 }
 .foot1{
-    gap: 2%;
     margin-bottom: 50px;
+    gap: 2%;
 }
 .foot2{
     background-color: #72c139f2;
@@ -46,6 +48,7 @@ h1{
     gap: 40%;
 }
 .fin-1{
-    padding-right: 140px;
+    padding-right:  140px;
     padding-bottom: 20px;
 }
+.fin-1 img{}
